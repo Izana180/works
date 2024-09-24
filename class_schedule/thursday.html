@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>時間割</title>
+  <link rel="stylesheet" type="text/css" href="style-ok.css">
+</head>
+<body>
+  <h1><a class="title" href="class.html">Class Schedule (時間割)</a></h1>
+  <h2>高見澤 勇騎</h2>
+  <nav>
+    <ul>
+        <li><a href="monday.html">月曜日</a></li>
+        <li><a href="tuesday.html">火曜日</a></li>
+        <li><a href="wednesday.html">水曜日</a></li>
+        <li><a href="thursday.html">木曜日</a></li>
+        <li><a href="friday.html">金曜日</a></li>
+    </ul>
+    <ul class="period">
+      <li>1限</li>
+      <li><a href="thursday.html#graph">2限</a></li>
+      <li>3限</li>
+      <li><a href="thursday.html#obj">4限</a></li>
+      <li><a href="thursday.html#scr">5限</a></li>
+    </ul>
+  </nav>
+  <table>
+    <tr>
+      <th rowspan="2">&nbsp;</th>
+      <th colspan="5">曜日</th>
+    </tr>
+    <tr>
+      <th>月</th>
+      <th>火</th>
+      <th>水</th>
+      <th>木</th>
+      <th>金</th>
+    </tr>
+    <tr>
+      <th>1限</th>
+      <td><a href="monday.html#websys">Web情報システム構成法</a></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>2限</th>
+      <td>&nbsp;</td>
+      <td><a href="tuesday.html#internet">インターネット</a></td>
+      <td>&nbsp;</td>
+      <td><a href="thursday.html#graph">情報数学概論</a></td>
+      <td><a href="friday.html#security">情報セキュリティマネジメント</a></td>
+    </tr>
+    <tr>
+      <th>3限</th>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><a href="wednesday.html#chinese">中国語ベーシック1CB</a></td>
+      <td>&nbsp;</td>
+      <td><a href="wednesday.html#chinese">中国語ベーシック1CB</a></td>
+    </tr>
+    <tr>
+      <th>4限</th>
+      <td><a href="monday.html#OS">オペレーティングシステム</a></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><a href="thursday.html#obj">オブジェクト指向プログラミング</a></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>5限</th>
+      <td><a href="monday.html#OS">オペレーティングシステム</a></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><a href="thursday.html#scr">スクリプト言語プログラミング</a></td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+  <div id="graph">
+    <h3>情報数学概論</h3>
+    <figure>
+      <img src="graph.jpg" alt="image of graph">
+    </figure>
+    <h4>木曜日2限(日吉)</h4>
+    <p>離散数学の中で、特に情報科学に関連する内容を概説する。とくに、論理的推論とそれに必要な数理的概念である、集合、写像、数え上げ、２項関係（同値関係、半順序集合）、グラフなどに重点をおき、簡単なアルゴリズムについても触れる。情報科学や関連する諸問題に登場する題材を通して、数理的・論理的な考え方を身につけることを目的とする。</p>
+  </div>
+  <div id="obj">
+    <h3>オブジェクト指向プログラミング</h3>
+    <figure>
+      <img src="python.jpg" alt="logo of python">
+    </figure>
+    <h4>木曜日4限</h4>
+    <p>オブジェクト指向プログラミング言語を用いたプログラミング科目です。プログラミング実習も行ないます。プログラミング言語としてはPythonを扱います。情報基礎で学んだプログラミングの復習が主体となる授業になっています。Pythonを用いて、基本的なプログラミングの仕方を復習すると共に、Python流のリストを用いた様々なプログラミングを学んでいきます。タートルグラフィックスなどの標準ライブラリを扱いながら、オブジェクトを利用する形でのプログラミングパラダイムを身に付けていけるような実習型の講義を行ないます。</p>
+  </div>
+  <div id="scr">
+    <figure>
+      <img src="numpy_title.jpg" alt="logo of numpy">
+    </figure>
+    <h3>スクリプト言語プログラミング</h3>
+    <h4>木曜日5限</h4>
+    <p>スクリプト言語Pythonの言語的な側面を復習した後、Pythonを利用して数値解析について学ぶ講義になっています。Numpy, ScipyおよびSympyと呼ばれる数値解析のライブラリを用いて、実際の数値データの解析を行ないます。このデータには、画像や音声データについても含まれます。講義の大半が数学的な手法を扱う内容になっています。数学の概念やアルゴリズムを導入した後、実際のプログラムを組んでいきます。具体的には、行列、ベクトルの基本計算、ガウスの消去法を用いた連立一次式の解法、高速フーリエ変換、回帰解析、補間、数値積分、微分方程式の近似解などを扱っていきます。また、数値計算の応用として統計解析まで到達できれば、その内容を少し触れていきます。 講義名に「基礎」と名前がついていますが、高校および大学の理系の基礎数学の解法をプログラムで記述していく内容になりますので、かなり高度な内容になります。ただし、プログラミング的に は、数値解析のライブラリを呼び出す、あるいは呼び出すための設定や、呼び出した後の結果をグラフィック的に表示することが主になりますので、それほど難しいものではありません。Pythonについては、授業の前半の回で言語構造の復習をします。</p>
+  </div>
+</body>
+</html>
